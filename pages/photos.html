@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTDXHTML1.0Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project</title>
+	<meta http-equiv="Content-Type" content="width=device-width, initial-scale=1.0"/>
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">	
+</head>
+<body>
+<!-- Banner -->
+<div id="banner_div">
+  <img src="../images/bannerBlackReal.jpg" alt="banner_ID" class="center">
+</div>
+
+<div id="logo_div">
+  <img src="../images/logoBlackReal.png" alt="logo_ID">
+</div>
+
+<!--Menu Icon -->
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="../index.html">Home</a>
+  <a href="videos.html">Videos</a>
+  <a href="pages/photos.html" class="active">Photos</a>
+  <a href="about.html">About</a>
+  <a href="gear.html">Gear</a>
+  <a href="contact.html">Contact</a>
+  <a href="book.html">Book Online</a>
+  <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<div id="images">
+<img id="myImg" src="../images/proposal1.jpg" alt="Proposal" style="width:100%;max-width:320px;max-height:229px">
+<img id="myImg" src="../images/proposal2.jpg" alt="Proposal" style="width:100%;max-width:320px;max-height:229px">
+<img id="myImg" src="../images/proposal3.jpg" alt="Proposal" style="width:100%;max-width:320px;max-height:229px">
+<img id="myImg" src="../images/proposal4.jpg" alt="Proposal" style="width:100%;max-width:320px;max-height:229px">
+<img id="myImg" src="../images/Wilderness.jpg" alt="Wilderness" style="width:100%;max-width:320px;max-height:213px">
+<img id="myImg" src="../images/basketball1.jpg" alt="Basketball" style="width:100%;max-width:320px;max-height:213px">
+<img id="myImg" src="../images/basketball2.jpg" alt="Basketball" style="width:100%;max-width:320px;max-height:213px">
+<img id="myImg" src="../images/palmTrees.jpg" alt="PalmTrees" style="width:100%;max-width:320px;max-height:213px">
+<img id="myImg" src="../images/ocean.jpg" alt="Ocean" style="width:100%;max-width:320px;max-height:213px">
+<img id="myImg" src="../images/car.jpg" alt="Car" style="width:100%;max-width:320px;max-height:213px">
+<img id="myImg" src="../images/jacobPic.jpg" alt="Jacob" style="width:100%;max-width:320px;max-height:213px">
+</div>
+
+</body>
+</html>
